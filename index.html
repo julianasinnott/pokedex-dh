@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Prática 02</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css" />
+        <script defer src="./script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="title">Pokédex</h1>
+            <div class="pagination__section">
+                <button class="pagination__button" onclick="handlePage('previous')">Previous</button>
+                <button class="pagination__button" onclick="handlePage('next')">Next</button>
+            </div>
+            <input id="search__input" name="search__input" class="search" type="text" placeholder="Pesquisar...">
+            <ul class="list"></ul>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Pokemon Solid";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Pokemon Solid"),
+        url("https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+
+    background: linear-gradient(to right, #24c6dc, #514a9d);
+
+    max-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 40px 40px;
+}
+
+.title {
+    font-family: "Pokemon Solid", sans-serif;
+    color: #ffcc03;
+    -webkit-text-stroke: 1px #3564ad;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+
+.search {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    width: 150px;
+    background-color: #cdecff;
+    box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 300ms ease;
+}
+
+.items:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.image {
+    width: 90px;
+    margin-top: 20px;
+    filter: saturate(2);
+}
+
+.pagination__section {
+    display: flex;
+    gap: 40px;
+}
+
+.pagination__button {
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    min-width: 110px;
+    cursor: pointer;
+    background-color: #FAFAFA;
+    color: #3564ad;
+}
+
+@media only screen and (max-width: 570px) {
+    .container{
+        padding: 0;
+    }
+    .items {
+        width: 200px;
+        height: 200px;
+    }
+    .image {
+        width:140px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .items {
+        width: 300px;
+    }
+    .image {
+        width:140px;
+    }
+}
