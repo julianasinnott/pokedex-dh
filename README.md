@@ -17,8 +17,16 @@
 ## | Descrição |
 
 Projeto de Pokédex, proposto no curso de Desenvolvimento FrontEnd da Digital House. <br>
-A ideia era adicionar as funcionalidades com JavaScript Vanilla. <br>
-A estrutura HTML e o CSS ja estavam prontos, fiz somente alguns ajustes no design e também para melhorar a responsividade.
+A ideia era realizar requisições assíncronas, consumindo uma API e também adicionar funcionalidades como filtrar um pokemon e paginação, com JavaScript Vanilla. <br>
+A estrutura HTML e o CSS ja estavam prontos, fiz somente alguns ajustes no design e também na responsividade.
+
+## | Deploy do projeto |
+
+🔗 https://julianasinnott.github.io/pokedex-dh/ 🔗
+
+## | API |
+
+[PokéAPI](https://pokeapi.co/)
 
 ## | Deploy do projeto |
 
